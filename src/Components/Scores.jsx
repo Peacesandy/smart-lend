@@ -60,7 +60,7 @@ const [onNext, setOnNext] = useState(false)
             </table>
         </div>
         <div className={style.input}>
-          <label htmlFor="">pass mark (required)</label>
+          <label htmlFor="">Pass mark (required)</label>
           <br/>
           <input type="text" placeholder='select'/>
         </div>
