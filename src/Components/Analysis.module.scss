@@ -1,0 +1,45 @@
+body{
+    position: relative;
+}
+
+.title{
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+input{
+    padding: 8px 10px;
+    margin: 8px;
+    border: 1px solid grey;
+}
+
+.btn {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background-color: #4c4ddc;
+        padding: 10px 50px;
+        border: none;
+        border-radius: 2px;
+        margin-top: 90px;
+}
+
+.button{
+    margin-left: 45%;
+}
+
+select{
+    padding: 8px 10px;
+    margin: 6px;
+}
+
