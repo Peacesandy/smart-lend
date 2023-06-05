@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+table{
+    width: 40%;
+}
+
+table, th {
+    border:1px solid rgb(179, 174, 174);
+    border-collapse: collapse;
+  }
+
+td{
+    border:1px solid rgb(179, 174, 174);
+    border-collapse: collapse;
+}
+
+.first{
+    background-color: rgb(185, 181, 181);
+}
+
+.btn {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c4ddc;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 60px;
+}

@@ -1,8 +1,14 @@
 import React from 'react'
 import style from './Scores.module.scss'
+import { useState } from 'react'
+import Review from "../Components/Review";
 
 
 function Scores() {
+
+const [onNext, setOnNext] = useState(false)
+
+
   return (
     <div>
         <div className={style.body}> 
@@ -11,9 +17,9 @@ function Scores() {
         </div>
         <div>
           <table> 
-            <tr>
+            <tr className={style.first}>
                 <td>Variable</td>
-                <td>Assigned Debit</td>
+                <td>Assigned Score</td>
             </tr>
             <tr>
               <td>Average Credit</td>
@@ -47,8 +53,29 @@ function Scores() {
               <td>Low inflow rate</td>
               <td>10</td>
             </tr>
+            <tr className={style.first}>
+              <td>Total</td>
+              <td>90</td>
+            </tr>
             </table>
         </div>
+        <div className="div">
+            <select name="" id="">
+        <option value="">Select</option>
+            </select>
+        </div>
+        <div>
+        <select name="" id="">
+        <option value="">Select</option>
+            </select>
+        </div>
+        <div className={style.button}>
+    {!onNext && <button className={style.btn} onClick={() => setOnNext(true)}>
+        Continue
+        </button> }
+
+        {onNext && <Review/>}
+    </div>
     </div>
   )
 }
