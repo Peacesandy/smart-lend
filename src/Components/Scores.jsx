@@ -13,14 +13,38 @@ function Scores() {
           <table> 
             <tr>
                 <td>Variable</td>
-                <td>Assigned score</td>
+                <td>Assigned Debit</td>
             </tr>
             <tr>
-              <td>Average dept</td>
+              <td>Average Credit</td>
               <td>10</td>
             </tr>
             <tr>
-              <td>Average dept</td>
+              <td>Total outstanding loan</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Total watchlisted loan</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Highest loan amount</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Average income</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Average expenses</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Re-occuring expenses</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Low inflow rate</td>
               <td>10</td>
             </tr>
             </table>
