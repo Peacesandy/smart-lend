@@ -3,12 +3,22 @@
     flex-direction: row;
 }
 
-input{
+.Alpha{
     padding: 8px 10px;
     margin: 8px;
-    border: 1px solid grey;
+    border: 1px solid #C2C2C2;
+    color: gray;
 }
 
-select{
+.apply{
     padding: 8px 25px;
+    margin: 15px;
+    border-radius: 2px;
+    border: 1px solid #C2C2C2;
+    color: gray;
+}
+
+.condition{
+    margin: 10px;
+    margin-bottom: 10px ;
 }
