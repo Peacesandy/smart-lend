@@ -1,0 +1,14 @@
+.review{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    padding: 8px 10px;
+    margin: 8px;
+    border: 1px solid grey;
+}
+
+select{
+    padding: 8px 25px;
+}

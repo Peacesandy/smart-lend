@@ -59,18 +59,18 @@ const [onNext, setOnNext] = useState(false)
             </tr>
             </table>
         </div>
-        <div className={style.input}>
+        <div className={style.scores}>
           <label htmlFor="">Pass mark (required)</label>
           <br/>
-          <input type="text" placeholder='select'/>
+          <input type="text" placeholder='select' className={style.scoresplace}/>
         </div>
         <div>
         <label htmlFor="">Least considerable score</label>
           <br/>
-          <input type="text" placeholder='select'/>
+          <input type="text" placeholder='select' className={style.scoresplace}/>
         </div>
         <div className={style.button}>
-    {!onNext && <button className={style.btn} onClick={() => setOnNext(true)}>
+    {!onNext && <button className={style.scoresbtn} onClick={() => setOnNext(true)}>
         Continue
         </button> }
 

@@ -13,11 +13,11 @@ const [onContinue, setOnContinue] = useState(false)
         <div className={style.title}> 
     <h3>Create Prediction model</h3>
     </div>
-    <div className={style.input}> 
+    <div className={style.createanalysis}> 
       <div>  
     <label htmlFor="">Variable</label>
     <br/>
-    <select name="" id="">
+    <select name="" id="" className={style.createselect}>
         <option value="">Select</option>
         <option value="">Monthly average income</option>
         <option value="">Monthly average expense</option>
@@ -28,7 +28,7 @@ const [onContinue, setOnContinue] = useState(false)
         <option value="">Most frequent balance</option>
     </select>
          <br/>
-    <select name="" id="">
+    <select name="" id="" className={style.createselect}>
         <option value="">Select</option>
         <option value="">Monthly average income</option>
         <option value="">Monthly average expense</option>
@@ -43,7 +43,7 @@ const [onContinue, setOnContinue] = useState(false)
      <div>   
     <label htmlFor="">Operator</label>
     <br/>
-    <select>
+    <select className={style.createselect}>
         <option value="">Select</option>
         <option value="">Less than or equal to</option>
         <option value="">Greater than</option>
@@ -51,7 +51,7 @@ const [onContinue, setOnContinue] = useState(false)
         <option value="">Equal to</option>
     </select>
         <br/>
-    <select>
+    <select className={style.createselect}>
         <option value="">Select</option>
         <option value="">Less than or equal to</option>
         <option value="">Greater than</option>
@@ -63,22 +63,22 @@ const [onContinue, setOnContinue] = useState(false)
     <div>
         <label htmlFor="">Value</label>
         <br/>
-        <input type="nothing" />
+        <input type="nothing" className={style.create}/>
         <br/>
-        <input type="nothing" />
+        <input type="nothing" className={style.create}/>
     </div>
 
     <div>
         <label htmlFor="">Assigned Score</label>
         <br/>
-        <input type="nothing" />
+        <input type="nothing" className={style.create}/>
         <br/>
-        <input type="nothing" />
+        <input type="nothing" className={style.create}/>
     </div>
 
     </div>
-    <div className={style.button}>
-    {!onContinue && <button className={style.btn} onClick={() => setOnContinue(true)}>
+    <div className={style.createbtn1}>
+    {!onContinue && <button className={style.createbtn} onClick={() => setOnContinue(true)}>
         Continue
         </button> }
 

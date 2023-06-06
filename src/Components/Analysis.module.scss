@@ -1,12 +1,9 @@
-body{
-    position: relative;
-}
 
 .title{
     text-align: center;
 }
 
-.input{
+.createanalysis{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,13 +11,13 @@ body{
     justify-content: center;
 }
 
-input{
+.create{
     padding: 8px 10px;
     margin: 8px;
     border: 1px solid grey;
 }
 
-.btn {
+.createbtn{
         text-align: center;
         font-size: 12px;
         font-weight: 300;
@@ -34,11 +31,11 @@ input{
         margin-top: 90px;
 }
 
-.button{
+.createbtn1{
     margin-left: 45%;
 }
 
-select{
+.createselect{
     padding: 8px 10px;
     margin: 6px;
 }
